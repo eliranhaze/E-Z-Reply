@@ -1,16 +1,20 @@
 \documentclass[12pt]{article}
 
-\title{The Epistemic and the Zetetic: A Reply to Friedman}
-\author{Eliran Haziza}
-
 \usepackage{palatino}
 \usepackage[]{hyperref}
 \usepackage[margin=1in]{geometry}
 \usepackage[doublespacing]{setspace}
 \usepackage{enumitem}
-\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent} % for indented description environment
 
+\usepackage[en-US]{datetime2}
+\DTMlangsetup*{showdayofmonth=false}
+
+% my commands for this paper
 \usepackage{commands}
+
+\title{The Epistemic and the Zetetic: A Reply to Friedman}
+\author{Eliran Haziza}
 
 \begin{document}
 
@@ -18,7 +22,7 @@
 
 \section{Introduction}
 
-In "The Epistemic and the Zetetic", Jane Friedman argues that widely accepted epistemic theses, such as that one is permitted to believe on the basis of one's evidence, clash with norms of inquiry---zetetic norms, as she names them---and, as a result, would have to be rejected. The upshot, Friedman argues, is a radical revision of normative epistemology as we know it.
+In ``The Epistemic and the Zetetic'', Jane Friedman argues that widely accepted epistemic theses, such as that one is permitted to believe on the basis of one's evidence, clash with norms of inquiry---zetetic norms, as she names them---and, as a result, would have to be rejected. The upshot, Friedman argues, is a radical revision of normative epistemology as we know it.
 
 In this paper, I argue (1) that Friedman's argument for the conflict between epistemic and zetetic norms rests on inconsistent premises, and (2) that there are nearby epistemic norms that are both compatible with Friedman's zetetic norm and more plausible than the epistemic norms that she rejects.
 
@@ -41,7 +45,7 @@ Friedman argues that \ep{} conflicts with the zetetic instrumental principle:
 Let us look more carefully at Friedman’s argument. Friedman begins by laying out some assumptions, which will be crucial for our discussion, about permissions and requirements:\footnote{I assume with Friedman that ZIP issues \textit{epistemic} requirements, so in what follows, all talk of permissions and requirements refers to their epistemic versions. I also follow her in using \textit{required} and \textit{ought} interchangeably.}
 
 \begin{quote}
-    To make the tension between ZIP and [\ep{}] precise we should assume that 'ought' and 'permit' are duals, i.e., that one ought to $\phi$ at \textit{t} just in case one is not permitted to not-$\phi$ at \textit{t}. Let's also say that if a subject cannot both $\phi$ and $\psi$ at \textit{t}, then $\phi$-ing and $\psi$-ing are \textit{incompatible} for that subject at \textit{t}. And finally, if $\phi$-ing and $\psi$-ing are incompatible at \textit{t}, then we can say that $\phi$-ing at \textit{t} is a way of not-$\psi$-ing at \textit{t}, and $\psi$-ing at \textit{t} is a way of not-$\phi$-ing at \textit{t}. Altogether then, we can say that if you're required to $\phi$ at \textit{t}, and $\psi$-ing at \textit{t} is incompatible with $\phi$-ing at \textit{t}, then you're not permitted to $\psi$ at \textit{t}. (p. 14f)
+    To make the tension between ZIP and [\ep{}] precise we should assume that `ought' and `permit' are duals, i.e., that one ought to $\phi$ at \textit{t} just in case one is not permitted to not-$\phi$ at \textit{t}. Let's also say that if a subject cannot both $\phi$ and $\psi$ at \textit{t}, then $\phi$-ing and $\psi$-ing are \textit{incompatible} for that subject at \textit{t}. And finally, if $\phi$-ing and $\psi$-ing are incompatible at \textit{t}, then we can say that $\phi$-ing at \textit{t} is a way of not-$\psi$-ing at \textit{t}, and $\psi$-ing at \textit{t} is a way of not-$\phi$-ing at \textit{t}. Altogether then, we can say that if you're required to $\phi$ at \textit{t}, and $\psi$-ing at \textit{t} is incompatible with $\phi$-ing at \textit{t}, then you're not permitted to $\psi$ at \textit{t}. (p. 14f)
 \end{quote}
 %
 Friedman argues that \ep{} and ZIP are inconsistent because there are cases in which ZIP requires $\phi$-ing at \textit{t}, \ep{} permits $\psi$-ing at \textit{t}, but one cannot both $\phi$ and $\psi$ at \textit{t}. Here is such a case:
@@ -185,7 +189,7 @@ I shall argue, however, that the worry is overstated.
 
 \section{What cost?}
 
-What is the cost of giving up the idea that there are blanket permissions to judge in accordance with the evidence and to come to know? Friedman writes that this "leaves it open that there are cases in which believing in accordance with the evidence and/or coming to know are not epistemically permissible" (ibid). To flesh out this worry a bit more, consider Beth, who is required to \foc{}. Suppose that instead she comes to know that there are five people sitting at the table to her right (\textit{p}) at \textit{t}. Since, according to ZIP, Beth is not epistemically permitted to come to know \textit{p} at \textit{t}, her resulting state of knowledge is thus epistemically impermissible. But this is an unsettling thought. How can one's state of knowledge be epistemically impermissible? This conflicts, at the very least, with the idea that knowledge is always epistemically good. As Friedman writes: "It’s hard to know quite how to think about epistemically problematic knowledge or knowledge acquisition on our current understanding of normative epistemology" (ibid).
+What is the cost of giving up the idea that there are blanket permissions to judge in accordance with the evidence and to come to know? Friedman writes that this ``leaves it open that there are cases in which believing in accordance with the evidence and/or coming to know are not epistemically permissible'' (ibid). To flesh out this worry a bit more, consider Beth, who is required to \foc{}. Suppose that instead she comes to know that there are five people sitting at the table to her right (\textit{p}) at \textit{t}. Since, according to ZIP, Beth is not epistemically permitted to come to know \textit{p} at \textit{t}, her resulting state of knowledge is thus epistemically impermissible. But this is an unsettling thought. How can one's state of knowledge be epistemically impermissible? This conflicts, at the very least, with the idea that knowledge is always epistemically good. As Friedman writes: ``It’s hard to know quite how to think about epistemically problematic knowledge or knowledge acquisition on our current understanding of normative epistemology'' (ibid).
 
 I shall argue, however, that Beth's resulting knowledge that \textit{p} is permissible, even if her coming to know \textit{p} was impermissible. First, one cannot both accept ZIP and plausibly claim that Beth's knowledge that \textit{p} is impermissible. Suppose that at \textit{t} Beth knows that \textit{p}, as a result of impermissibly coming to know \textit{p} instead of focusing on \q{Q} as she was required by ZIP. If Beth is not permitted to know \textit{p} at \textit{t}, then, since requirements and permissions are duals, Beth is required not to know \textit{p} at \textit{t}. Either it is possible for Beth not to know \textit{p} at \textit{t}, or it isn't. If it isn't, then by the \textit{ought implies can} which Friedman's argument assumes (OC above), Beth is not required not to know \textit{p} at \textit{t}, and thus is permitted to know \textit{p} at \textit{t}. If, on the other hand, it is possible for her not to know \textit{p} at \textit{t}, then she is required to do that and lose her knowledge in some way. But that requires not focusing on \q{Q}, which would violate ZIP. Since ZIP requires Beth to \foc{}, and Beth cannot both \foc{} and lose her knowledge that \textit{p} at \textit{t}, Friedman's own \ref*{itm:opic} entails that Beth is \textit{not} permitted to lose her knowledge that \textit{p} at \textit{t}. So she is required not to lose it, and thus she is permitted to know \textit{p} at \textit{t}.
 
@@ -196,7 +200,7 @@ Second, the inference that Beth's knowledge that \textit{p} is not permissible b
 \newcommand{\ppb}{\pp{\textsubscript{B}}}
 \begin{description}
     \item[\ppk] If one knows \textit{p} as a result of coming to know \textit{p}, then: one is permitted to know \textit{p} only if one was permitted to come to know \textit{p}.
-    \item[\ppb] If one believes \textit{p} as a result of judging \textit{p}, then: one is permitted to believe \textit{p} only if one was permitted to judge \textit{p}.\footnote{In her (2019, p. 689f), Friedman argues for a thesis equivalent to \ppb{}, writing that "if some judgment is impermissible then the resulting belief state is as well."}
+    \item[\ppb] If one believes \textit{p} as a result of judging \textit{p}, then: one is permitted to believe \textit{p} only if one was permitted to judge \textit{p}.\footnote{In her (2019, p. 689f), Friedman argues for a thesis equivalent to \ppb{}, writing that ``if some judgment is impermissible then the resulting belief state is as well.''}
 \end{description}
 %
 \ppk{} and \ppb{} are instances of a more general thesis:
