@@ -17,11 +17,20 @@
 \usepackage[
     authordate,
     backend=biber,
+    sorting=nyt, % sort by name, year, title
+    footmarkoff, % turn off in-line footnote mark (use superscript instead)
+    %dashed=false, % in newest version, currently not working here
+    useprefix=true, % for prefixed names such as 'van X'
     doi=false,
     isbn=false,
     url=false,
 ]{biblatex-chicago}
 \addbibresource{references.bib}
+
+\DeclareLabeldate{%
+  \field{date}
+  \literal{forthcoming}
+}
 
 % clear irrelevant fields that the current bib prints
 \AtEveryBibitem{\clearfield{note}}
@@ -35,7 +44,7 @@
 
 \section{Introduction}
 
-In ``The Epistemic and the Zetetic'',\footnote{\textcite{friedman_epistemic_nodate}} Jane Friedman presents a provocative puzzle according to which epistemic norms that permit believing on the basis of one's evidence clash with a zetetic (i.e., inquiry related) norm according to which one ought to take the necessary means to settling one's inquiry. The puzzle has radical consequences for normative epistemology, if, as Friedman suggests, the most promising way forward is to reject that there are epistemic permissions to believe in accordance with the evidence.
+In ``The Epistemic and the Zetetic'',\footnote{\textcite{friedman_epistemic_nodate}.} Jane Friedman presents a provocative puzzle according to which epistemic norms that permit believing on the basis of one's evidence clash with a zetetic (i.e., inquiry related) norm according to which one ought to take the necessary means to settling one's inquiry. The puzzle has radical consequences for normative epistemology, if, as Friedman suggests, the most promising way forward is to reject that there are epistemic permissions to believe in accordance with the evidence.
 
 This paper critically examines Friedman's puzzle and argues for two claims. First, contrary to Friedman's suggestion, rejecting epistemic permissions to believe in accordance with the evidence does not resolve the inconsistency that is at the heart of the puzzle. This suggests that the source of inconsistency lies not in a tension between the epistemic and the zetetic, but elsewhere. I argue that the problem arises from a conflict between two of Friedman's assumptions: an \textit{ought implies can} thesis, and the claim that there is a point during inquiry at which one ought to focus on one's inquiry. Second, even if Friedman's argument for the epistemic-zetetic conflict is granted, there are nearby epistemic norms that are both compatible with Friedman's zetetic norm and independently more plausible than the epistemic norms that are purportedly inconsistent with it.
 
