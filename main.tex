@@ -42,186 +42,108 @@
 
 \maketitle
 
-\section{Introduction}
+\noindent In ``The Epistemic and the Zetetic'',\footnote{\textcite{friedman_epistemic_nodate}.} Jane Friedman presents a provocative puzzle according to which epistemic norms that permit believing on the basis of one's evidence clash with a zetetic (i.e., inquiry related) norm according to which one ought to take the necessary means to settling one's inquiry. The puzzle has significant consequences for normative epistemology, if, as Friedman suggests, the most promising way forward is to reject that there are epistemic permissions to believe in accordance with the evidence. The aim of this paper is to show an easy and independently motivated way out of Friedman's puzzle.
 
-In ``The Epistemic and the Zetetic'',\footnote{\textcite{friedman_epistemic_nodate}.} Jane Friedman presents a provocative puzzle according to which epistemic norms that permit believing on the basis of one's evidence clash with a zetetic (i.e., inquiry related) norm according to which one ought to take the necessary means to settling one's inquiry. The puzzle has radical consequences for normative epistemology, if, as Friedman suggests, the most promising way forward is to reject that there are epistemic permissions to believe in accordance with the evidence.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The puzzle}\label{sec:puzz}
 
-This paper critically examines Friedman's puzzle and argues for two claims. First, contrary to Friedman's suggestion, rejecting epistemic permissions to believe in accordance with the evidence does not resolve the inconsistency that is at the heart of the puzzle. This suggests that the source of inconsistency lies not in a tension between the epistemic and the zetetic, but elsewhere. I argue that the problem arises from a conflict between two of Friedman's assumptions: an \textit{ought implies can} thesis, and the claim that there is a point during inquiry at which one ought to focus on one's inquiry. Second, even if Friedman's argument for the epistemic-zetetic conflict is granted, there are nearby epistemic norms that are both compatible with Friedman's zetetic norm and independently more plausible than the epistemic norms that are purportedly inconsistent with it.
-
-\section{Friedman's argument}\label{sec:2}
-
-An epistemic norm that Friedman suggests might have to be rejected is:
+The following evidentialist norms are threatened by Friedman's puzzle:
 
 \begin{description}
     \item[\ep] If one has excellent evidence for \textit{p} at \textit{t}, then one is permitted to \jud{}.\footnote{The \textit{a} subscript stands for `act'. \ep{} is a norm for forming beliefs rather than a norm for being in a state of belief.}
+    \item[\eo] If one has excellent evidence for \textit{p} at \textit{t}, then one ought to \jud{}.
 \end{description}
 %
-Friedman argues that \ep{} conflicts with the zetetic instrumental principle:
-%
+Friedman argues that \ep{} and \eo{} conflict with the zetetic instrumental principle:
+
 \begin{description}
     \item[ZIP] If one wants to figure out \q{Q}, then one ought to take the necessary means to figuring out \q{Q}.
 \end{description}
 %
-\ep{} seems highly plausible and, Friedman claims, is central to current epistemic theorizing. ZIP is an instance of a more general norm of instrumental rationality. But, if Friedman is right, \ep{} and ZIP cannot both be correct. One can be in a situation where ZIP requires that one focus on one’s inquiry, and, at the same time, one has a lot of unrelated evidence for propositions that \ep{} permits one to come to believe. But coming to believe those things will detract from focusing on one’s inquiry. ZIP and \ep{}, then, appear to pull in different directions. But ZIP is itself an epistemic norm, Friedman argues, and its requirements are epistemic requirements. If so, \ep{} and ZIP don’t just pull in different directions---they are downright inconsistent.
+Friedman observes that in any ordinary inquiry one finds oneself surrounded by evidence unrelated to one's inquiry. Consider such a case: Beth has to figure out what she owes at a restaurant (\q{Q}). A lot of evidence is available to Beth at the restaurant most of which irrelevant to her bill inquiry. Perhaps Beth can acquire some beliefs based on that evidence---e.g., that there are five people at the table to the right, or that a couple just sat down---while doing some of the math for what she owes. But at some point she will have to stop being distracted and just focus on her task. At that point ZIP will require Beth to focus on \q{Q}. But even then \ep{} permits Beth to come to believe those propositions supported by her inquiry-irrelevant evidence. This is especially problematic if we assume with Friedman the following:
 
-Let us look more carefully at Friedman’s argument. Friedman begins with the following assumption about permissions and requirements:\footnote{I assume with Friedman that ZIP issues \textit{epistemic} requirements, so in what follows, all talk of permissions and requirements refers to their epistemic versions. I also follow her in using \textit{required} and \textit{ought} interchangeably.}
-
-\begin{quote}
-    To make the tension between ZIP and [\ep{}] precise we should assume that `ought' and `permit' are duals, i.e., that one ought to $\phi$ at \textit{t} just in case one is not permitted to not-$\phi$ at \textit{t}. Let's also say that if a subject cannot both $\phi$ and $\psi$ at \textit{t}, then $\phi$-ing and $\psi$-ing are \textit{incompatible} for that subject at \textit{t}. And finally, if $\phi$-ing and $\psi$-ing are incompatible at \textit{t}, then we can say that $\phi$-ing at \textit{t} is a way of not-$\psi$-ing at \textit{t}, and $\psi$-ing at \textit{t} is a way of not-$\phi$-ing at \textit{t}. Altogether then, we can say that if you're required to $\phi$ at \textit{t}, and $\psi$-ing at \textit{t} is incompatible with $\phi$-ing at \textit{t}, then you're not permitted to $\psi$ at \textit{t}. (p. 14f)
-\end{quote}
+\newcommand{\opic}{Joint Satisfiability}
+\begin{description}
+    \item[\opic{}] If one cannot both $\phi$ and $\psi$ at \textit{t} and one is required $\phi$ at \textit{t}, then one is not permitted to $\psi$ at \textit{t}.\footnote{CITE}
+\end{description}
 %
-Friedman argues that \ep{} and ZIP are inconsistent because there are cases in which ZIP requires $\phi$-ing at \textit{t}, \ep{} permits $\psi$-ing at \textit{t}, but one cannot both $\phi$ and $\psi$ at \textit{t}---contradicting the above assumption. Here is such a case:
+Beth cannot both focus on \q{Q} and come to believe that, say, there are five people at the table to her right (\textit{p}). If ZIP requires that Beth focus on \q{Q} at \textit{t}, then she is not permitted to judge \textit{p} at \textit{t}. But if Beth has excellent evidence for \textit{p} at \textit{t}, \ep{} permits her to judge \textit{p} at \textit{t}. Beth is both permitted and not permitted to judge \textit{p} at \textit{t}. Crucially, Friedman argues that ZIP itself is an epistemic norms. Its requirements and permissions are thus epistemic ones. It's not that Beth is permitted in one sense to judge \textit{p} but not in another; she is epistemically permitted and epistemically not permitted to judge \textit{p} at \textit{t}. ZIP and \ep{} are downright inconsistent.
 
-\begin{quote}
-    For instance, imagine you're at a busy restaurant, and the dinner bill arrives. In order to figure out what you owe, you have to do some mental math. Maybe it’s possible to acquire some of the perceptual knowledge available to you in the restaurant while doing the math or to learn from your pre-existing evidence while adding and dividing, but at some point doing those calculations is going to require you to focus on that task. At that point, ZIP is going to place some restrictions on which evidence you are allowed to follow and what you are allowed to come to know. So again, if you ought to do your bill calculations now, then you’re not permitted to come to know all about (e.g.) the conversation at the next table now. (p. 16)
-\end{quote}
-%
-The restaurant patron---call her Beth---has to figure out what she owes (\q{Q}). She may attend to her surroundings for some time, instead of focusing on \q{Q}, but there is going to be a point \textit{t} when Beth will be required to focus on \q{Q}. \ep{}, however, will still permit her to attend to the \q{Q}-irrelevant evidence available to her at \textit{t}. Friedman writes:
+The conflict between ZIP and \eo{} arises in much the same way. At some point ZIP requires that Beth focus on \q{Q}, while \eo{} requires that Beth judge \textit{p}, for every \textit{p} excellently supported by her evidence. Since requirements are also permissions, \opic{} leads to the same contradictory conclusion.
 
-\begin{quote}
-    In all of these cases we have ZIP declaring the making of some judgments impermissible, and, at the same time, [\ep{}] declaring the making of those same judgments permissible. We’ll be able to find tension like this in most any inquiry that requires our attention for any stretch of time (which I assume is most any inquiry). In those sorts of cases, there will typically be some traditionally epistemically impeccable judgments that it won’t be permissible to make. These judgments are then both permissible and impermissible. (ibid)
-\end{quote}
-%
-The conclusion is that \ep{} and ZIP are inconsistent, and at least one of them will have to be rejected. It's important for what follows to lay out Friedman's argument for the inconsistency more precisely. I will focus on the argument for the conclusion that in Beth's restaurant case there are some judgments that are both permissible and impermissible. Given that Beth does not make sufficient progress on her inquiry \q{Q} for some time, and that her inquiry is temporally urgent, there comes a point \textit{t} at which:
+Friedman's argument seems to push us to a difficult dilemma: we'll have to reject evidentialist norms such as \ep{} and \eo{} or reject a simple norm that such as ZIP. But if we reject a very weak norm such as \ep{} that merely permits believing in accordance with the evidence, what's left of evidentialist norms? Friedman suggests that \textit{all} such norms must be rejected as they would conflict with ZIP. Genuine epistemic norms, Friedman argues, are norms of inquiry. As I shall argue, however, the evidentialist as an easy way out of this problem. The evidentialist need not give up epistemic requirements or permissions.
 
-\begin{enumerate}[label=(P\arabic*),ref=P\arabic*]
-    \item\label{itm:prog} Beth has not made sufficient progress on \q{Q} at \textit{t}.
-    \item\label{itm:evid} Beth has excellent evidence for some \q{Q}-irrelevant \textit{p} at \textit{t}.
-    \item\label{itm:zip} If one has not made sufficient progress on a temporally urgent \q{Q} at \textit{t}, then one is required to \foc{}.\footnote{See p. 16: ``Maybe it’s possible to acquire some of the perceptual knowledge available to you [. . .], but at some point doing those calculations is going to require you to focus on that task.'', and p. 22: ``at some point in fairly typical inquiries inquirers will need to avoid distraction.'' See also fn. 21 in p. 15.} [ZIP]
-    \item\label{itm:ep} If one has excellent evidence for \textit{p} at \textit{t}, then one is permitted to \jud{}. [\ep{}]
-    \item\label{itm:cant} Beth cannot both \jud{} and \foc{}.
-    \item\label{itm:opic} If one cannot both $\phi$ and $\psi$ at \textit{t} and one is required $\phi$ at \textit{t}, then one is not permitted to $\psi$ at \textit{t}.\footnote{This is the assumption stated in Friedman's p. 14 passage quoted above.}
-\end{enumerate}
-\begin{enumerate}[label=(C\arabic*),ref=C\arabic*]
-    \item\label{itm:perm} Beth is permitted to \jud{}. [\ref*{itm:evid}, \ref*{itm:ep}]
-    \item\label{itm:forb} Beth is not permitted to \jud{}. [\ref*{itm:prog}, \ref*{itm:zip}, \ref*{itm:cant}, \ref*{itm:opic}]
-\end{enumerate}
-%
-\newcommand{\psub}{\ref*{itm:zip}, \ref*{itm:cant}, \ref*{itm:opic}}
-%
-Friedman then presents a dilemma: We'll have to reject \ep{} or ZIP. Both seem difficult to give up, but Friedman suggests that it is \ep{} that should go. As I shall argue, however, rejecting \ep{} is not a promising option, since premises \psub{} lead to a contradiction even if \ep{} is rejected.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The structure of evidential norms}\label{sec:struct}
 
-\section{Inconsistent premises}
-The following premises of Friedman's argument are inconsistent:
-
-\begin{enumerate}
-    \item[(\ref*{itm:zip})] If one has not made sufficient progress on a temporally urgent \q{Q} at \textit{t}, then one is required to \foc{}.
-    \item[(\ref*{itm:cant})] Beth cannot both \jud{} and \foc{}.
-    \item[(\ref*{itm:opic})] If one cannot both $\phi$ and $\psi$ at \textit{t} and one is required $\phi$ at \textit{t}, then one is not permitted to $\psi$ at \textit{t}.
-\end{enumerate}
-%
-To see that \psub{} are inconsistent, note, first, that \ref*{itm:cant} entails:
-
-\begin{enumerate}
-    \item[(\ref*{itm:cant}')] If Beth judges \textit{p} at \textit{t}, she cannot \foc{}.
-\end{enumerate}
-%
-\ref*{itm:cant}' follows from \ref*{itm:cant} given the assumption that one cannot undo one's actions---once one $\phi$'s at \textit{t}, it is an immutable fact that one $\phi$-ed at \textit{t}. If Beth judges \textit{p} at \textit{t}, either she can also \foc{} or she can't. If she can, then it will be possible for her to have both judged \textit{p} at \textit{t} and focused on \q{Q} at \textit{t}---in contradiction to \ref*{itm:cant}. Thus, if Beth judges \textit{p} at \textit{t}, she cannot \foc{}.
-
-\ref*{itm:opic}, on the other hand, entails an \textit{ought implies can} thesis:
-
-\begin{enumerate}
-    \item[(OC)] If one is required to $\phi$ at \textit{t}, one can $\phi$ at \textit{t}.
-\end{enumerate}
-%
-To see that OC follows from \ref*{itm:opic}, consider the case where $\phi$ = $\psi$. Suppose for reductio that one is required to $\phi$ but cannot $\phi$. Since one cannot $\phi$ and is required to $\phi$, \ref*{itm:opic} entails that one is not permitted to $\phi$, in contradiction to the assumption that one is required to $\phi$.
-
-Given the assumption that judging \textit{p} at \textit{t} is consistent with not having made sufficient progress on \q{Q} at \textit{t}, we have a contradiction. If Beth judges \textit{p} at \textit{t}, and she has not made sufficient progress on \q{Q} at \textit{t}, then:
-
-\begin{enumerate}[label=(C\arabic*'),ref=C\arabic*]
-    \item Beth is required to \foc{}. [\ref*{itm:zip}]
-    \item Beth cannot \foc{}. [\ref*{itm:cant}']
-    \item Beth is required to \foc{} only if she can \foc{}. [OC]
-\end{enumerate}
-%
-C1'-C3' are clearly inconsistent. Since they are entailed by \psub{}, together with the assumption that it is possible to \jud{} when one has not made sufficient progress on \q{Q} at \textit{t}, one of those will have to be rejected. There is no reason to reject the latter assumption---indeed, without it, the claim that ZIP requires that one not \jud{} does not make much sense---so one of \psub{} must go.
-
-Since rejecting \ref*{itm:cant}---the claim that one cannot both focus on an inquiry and form an unrelated belief at the same time---does not seem very plausible, it is down to \ref*{itm:zip} and \ref*{itm:opic}. In fact, there is another reason to think that \ref*{itm:zip} and \ref*{itm:opic} are inconsistent. As Friedman grants, one can have more than one inquiry going on at a time.\footnote{\textcite[10]{friedman_epistemic_nodate}.} For instance, I may need to figure out both whether I can afford a certain apartment (\q{Q\textsubscript{1}}), and whether I need to restock my vitamins (\q{Q\textsubscript{2}}), and it is possible that both are urgent---that I need to figure out both by tonight. But given \ref*{itm:opic}, there can be no \textit{t} such that I am required to focus on \q{Q\textsubscript{1}} at \textit{t} and required to focus on \q{Q\textsubscript{2}} at \textit{t}, even if I make no progress at all on either inquiry. For \ref*{itm:opic} entails a joint satisfiability thesis:
-
-\begin{enumerate}
-    \item[(\ref*{itm:opic}')] If one is required to $\phi$ at \textit{t} and required to $\psi$ at \textit{t}, one can both $\phi$ and $\psi$ at \textit{t}.\footnote{To see that \ref*{itm:opic} entails \ref*{itm:opic}', note that \ref*{itm:opic} is equivalent to the following: If one is required to $\phi$ at \textit{t} and permitted to $\psi$ at \textit{t}, one can both $\phi$ and $\psi$ at \textit{t}. Given that \textit{required to $\phi$} entails \textit{permitted to $\phi$}, \ref*{itm:opic}' follows.}
-\end{enumerate}
-%
-Since there is no \textit{t} such that I can both focus on \q{Q\textsubscript{1}} and focus on \q{Q\textsubscript{2}} at \textit{t}, either \ref*{itm:opic}', and thus \ref*{itm:opic}, is false, or having made no progress on a temporally urgent inquiry \q{Q} at \textit{t} is not sufficient for ZIP to require that one \foc{}, and thus \ref*{itm:zip} is false.
-
-Friedman's case for the inconsistency between \ep{} and ZIP relies on an argument that \ep{} and ZIP together with some other assumptions lead to a contradiction. Like any \textit{reductio}, the argument only shows that at least one of its premises must be rejected; it does not tell us which one it is. Since a contradiction remains even without \ep{}, it is surely not \ep{} that Friedman's argument warrants rejecting.
-
-\section{The structure of evidential norms}
-
-Suppose that \ep{} is nevertheless rejected, and that Friedman's argument for the inconsistency is sound. Must we conclude that all non-zetetic epistemic norms should be rejected as well, as Friedman suggests? In this section, I shall argue that there are nearby epistemic norms that are both compatible with ZIP and more plausible than the the epistemic norms which Friedman argues are inconsistent with ZIP.
-
-Assuming a qualitative view of belief, there are four possible doxastic states given a proposition \textit{p}:
-
-\begin{enumerate}
-    \item Believing \textit{p}
-    \item Disbelieving \textit{p}
-    \item Suspending judgment on \textit{p}
-    \item Having no doxastic attitude toward \textit{p}\footnote{I am assuming with \textcite{friedman_why_2017} that 3 and 4 are distinct states.}
-\end{enumerate}
-%
-One way to think about evidential norms of the sort of \ep{} is that they tell us which of 1-4 we are required, or permitted, to have in a given situation. Another is that their advice is limited to 1-3: they never require, or issue a permission, for one to make the transition from 4 to 1-3. But given that one does make that transition, they tell us which of 1-3 are permitted or required. The following correspond to the former and latter kind of norms:
+To see the solution to the puzzle, let me begin with a somewhat related problem for the evidentialist norm \eo{}. Here it is again:
 
 \begin{description}
     \item[\eo] If one has excellent evidence for \textit{p} at \textit{t}, then one ought to \jud{}.
-    \item[\eoc] If one has excellent evidence for \textit{p} at \textit{t}, then one ought to \judif{}.\footnote{In fact, \textcite[679]{feldman_ethics_2000}, who Friedman cites as one of the advocates of \eo{}, accepts something like \eoc{} instead.}
 \end{description}
 %
-For instance, if I have excellent evidence that my neighbours are home, a norm of the former kind will require me to attend to that evidence and to judge that my neighbours are home. A norm of the latter kind will not; it will only require me to judge they are home given that I take some doxastic attitude toward that proposition. The former norm, a stronger version of \ep{} is, according to Friedman, inconsistent with ZIP. The latter, I shall argue, is both more plausible than \eo{} and consistent with ZIP.
-
-Norms of the former kind are much less plausible for suspensions of judgment. Consider:
+\eo{} is an evidentialist norm of the kind one might find in \textcite{conee_evidentialism_2004}. But there are reasons to think that \eo{} is too strong. For instance, it demands that one believe everything that follows from one's evidence. If my evidence shows that I have thirty-one browser tabs open (\textit{p}), then \eo{} requires that I form the belief that \textit{p}, but also that I form the beliefs that I have less than thirty-two tabs open (\textit{p}\textsubscript{1}), less than thirty-three (\textit{p}\textsubscript{2}), less than thirty-four, (\textit{p}\textsubscript{3}) and so on, since those are supported by my evidence just as well. That may not be a wise way to use my cognitive resources. But the problem is greater than that. Given how \eo{} is formulated, it requires that I judge \textit{p}, \textit{p}\textsubscript{1}, \textit{p}\textsubscript{2}, \textit{p}\textsubscript{3}, and so on, all at the same time. If one cannot do all of those judgings simultaneously, \opic{} entails that \eo{} is inconsistent. A similar problem is that one may have at a given moment excellent evidence for different and not logically related propositions, e.g., that I have thirty-one tabs open (\textit{p}) and that my neighbours are home (\textit{q}). \eo{} requires that one judge \textit{p} at \textit{t} and judge \textit{q} at \textit{t}, which again seems to conflict with \opic{}. How should the evidentialist deal with these problems? One way is to back off from \eo{} to a norm that issues permissions instead of requirements:
 
 \begin{description}
-    \item[\so] If one's evidence supports neither \textit{p} nor $\neg $\textit{p} at \textit{t}, then one ought to suspend judgment on \textit{p} at \textit{t}.
-    \item[\soc] If one's evidence supports neither \textit{p} nor $\neg $\textit{p} at \textit{t}, then one ought to suspend judgment on \textit{p}, if one takes any doxastic attitude toward \textit{p} at \textit{t}.
+    \item[\ep] If one has excellent evidence for \textit{p} at \textit{t}, then one is permitted to \jud{}.
 \end{description}
 %
-There are infinitely many propositions that I have never considered, that I have no doxastic attitude toward, and for or against which I have no evidence at this moment. \so{} requires that I take a doxastic attitude---suspension of judgment---toward all of these, and all at once. This is implausible, especially if we are assuming with Friedman the following thesis (previously \ref{itm:opic}'):
+But this isn't quite right. One of the ideas behind an evidentialist norm such as \eo{} is that one should believe what is supported by one's evidence, and not believe things for which one lacks sufficient evidence. \ep{} doesn't give us that. Fortunately, we don't have to look too far. \textcite{feldman_ethics_2000} suggests that, if one has sufficient evidence for some proposition \textit{p}, evidentialist norms require that one believe \textit{p} \textit{given that one takes any doxastic attitude toward p}. \eo{} can be revised as follows:
 
-%
-\newcommand{\js}{Joint Satisfiability}
 \begin{description}
-    \item[\js{}] If one ought to $\phi$ at \textit{t} and ought to $\psi$ at \textit{t}, one can both $\phi$ and $\psi$ at \textit{t}.
+    \item[\eoc] If one has excellent evidence for \textit{p} at \textit{t}, then one ought to \jud{}, if one takes any doxastic attitude toward \textit{p}.
 \end{description}
 %
-\js{} entails that \so{} is false, as suspending judgment about some proposition will require that one at least consider it, and one cannot do so for two propositions simultaneously. \js{} is also inconsistent with \eo{}, given that one can have evidence for more than one proposition at the same time. If at \textit{t} I have both evidence that my neighbours are home and evidence that I have thirty-one browser tabs open, then \eo{} requires that I follow both at \textit{t}. Since I can't do both at the same time, \eo{} is incosnistent with \js{}.
+The idea is this: evidentialist norms don't tell us to take doxastic attitudes, but they do tell us which ones to take \textit{if} we're taking any. \eoc{} avoids the above demandingness problems and preserves the evidentialist spirit in a way that \ep{} fails to do. Norms of this structure are commonplace. In a conversational context, there's a norm of sincerity. Such a norm doesn't require that I utter \textit{p} sincerely; it requires that I utter \textit{p} sincerely if I utter \textit{p} at all.
 
-\eoc{} and \soc{} are not susceptible to this problem. \soc{} doesn't require that one suspend judgment on every one of the infinitely many propositions that one has never considered, and for or against which there is no evidence. Rather, it requires that one suspend judgment on those propositions one actually considers and toward which one takes some doxastic attitude. One violates \soc{} by believing or disbelieving propositions for or against which one lacks evidence. One doesn't violate it by having no doxastic attitude toward such propositions. Similarly, \eoc{} requires that one form a belief about propositions one actually considers. If I never consider whether my neighbours are home, and take no doxastic attitude toward that proposition, then I do not violate \eoc{} even if I have excellent evidence that they are home. But once I do attend to that proposition, \eoc{} requires that I judge in accordance with the evidence.
+Before showing that \eoc{} is compatible with ZIP and thus offers an attractive way out of Friedman's dilemma, a few more clarifications are in place. \eoc{} is a norm that issues \textit{conditional requirements}. In a situation where you have excellent evidence for \textit{p}, \eoc{} requires: judge \textit{p} if you take any doxastic attitude toward \textit{p}. There are theoretical question as to how to understand conditional requirements.\footnote{For helpful discussion, see \textcite[ch.~3]{kiesewetter_normativity_2017}.} Some take the `ought' to take wide-scope over a conditional: \textit{Ought}(\textit{take attitude} $\rightarrow$ \textit{judge}). We need not settle the matter here. It suffices for my purposes to assume that a conditional requirement to $\phi$ if I $\psi$ forbids the act of $\psi$-ing without $\phi$. In the case of \eoc{}, when \textit{p} is excellently supported by the evidence, it is acts of taking a doxastic attitude toward \textit{p} but an attitude other than belief, e.g., suspending judgment on \textit{p} or disbelieving that \textit{p}, which violate the norm. Not taking any attitude toward \textit{p} does not violate \eoc{}.
 
-To be clear, norms such as \eoc{} and \soc{} do not imply that it is epistemically permissible to not transition from not having to having a doxastic attitude. Rather, their advice is limited to cases in which a doxastic attitude is taken, and they are compatible with the existence of other norms that do have something to say about the permissibility of such transitions.
+[See Kiesewetter regarding what is and is not plausible to assume.]
 
-Importantly, \eoc{} is compatible with ZIP. Consider Beth's restaurant bill inquiry \q{Q}. Suppose that ZIP requires that she focus on \q{Q} at \textit{t}, and at the same time, she has excellent evidence that there are five people sitting at the table to her right (\textit{p}). While \eo{} required that Beth judge \textit{p} at \textit{t}, and thus conflicted with ZIP and \js{}, \eoc{} does not. The requirement to focus on \q{Q} at \textit{t} is compatible with \eoc{}'s requirement to judge \textit{p} if Beth takes some doxastic attitude toward \textit{p}. Beth will have satisfied ZIP and not violated \eoc{} by focusing on \q{Q} and taking no doxastic attitude toward \textit{p}.
+I only assume the following about such requirements. If I have a conditional requirement to $\phi$ if I $\psi$ then: (a) not $\psi$-ing does not violate this requirement; (b) I am forbidden from [$\phi$-ing and not $\psi$-ing]; (c) factual detachment is invalid: the fact that I $\psi$ does not entail that I ought to $\phi$; rather, I am required to either not $\psi$ or to $\phi$.
 
-If \eoc{} is compatible with ZIP, then so is a weaker permission version of it:
+To be clear, \eoc{} does not imply that it is epistemically permissible to not transition from not having to having a doxastic attitude. Rather, its advice is limited to cases in which a doxastic attitude is taken, and it is compatible with the existence of other norms that do have something to say about the permissibility of such transitions.
+
+To see that \eoc{} is compatible with ZIP, consider Beth's restaurant bill inquiry \q{Q}. Suppose that ZIP requires that she focus on \q{Q} at \textit{t}, and at the same time, she has excellent evidence that there are five people sitting at the table to her right (\textit{p}). While \eo{} required that Beth judge \textit{p} at \textit{t}, and thus conflicted with ZIP and \opic{}, \eoc{} does not. The requirement to focus on \q{Q} at \textit{t} is compatible with \eoc{}'s requirement to judge \textit{p} if Beth takes some doxastic attitude toward \textit{p}. Beth will have satisfied ZIP and not violated \eoc{} by focusing on \q{Q} and taking no doxastic attitude toward \textit{p}.
+
+Here are two worries the reader might have. First, suppose that Beth does take a doxastic attitude toward \textit{p}, but not the right one. For instance, she disbelieves \textit{p} instead of believing it as required. Does \eoc{} not require that Beth then revise her belief? If so, \eoc{} does clash with ZIP. But \eoc{} requires no such thing: the conditional requirement that it issues is conditional on Beth's \textit{taking} an attitude, not on having one. So if Beth has the wrong attitude toward \textit{p}, \eoc{} does not issue a requirement to change it. This does not mean, however, that \eoc{} deems her attitude is rational or epistemically justified. She formed it in violation of \eoc{}, after all. But \eoc{} does not issue the requirement to revise the belief. It will do so only once Beth again considers the matter of \textit{p}. The second worry is that if Beth is in the process if taking a doxastic attitude toward \textit{p}, then \eoc{} will issue the unconditional requirement to judge \textit{p}, i.e., that the attitude she takes will be belief. But ZIP will still require that Beth stop those distractions and focus on her inquiry instead. If so, then \eoc{} conflicts with ZIP after all. But this is not so. Once the process of forming a doxastic attitude has begun, either Beth can stop it or she can't. If she can, then \eoc{} does \textit{not} require that Beth judge \textit{p}. Inferring so would be an instance of the invalid pattern of factual detachment. \eoc{} requires that Beth either stop the process or end it with belief. Beth then can satisfy both \eoc{} and ZIP by ending the process. On the other hand, if Beth cannot stop the process, then ZIP does \textit{not} require that she do so. For Friedman's assumption of \opic{} entails an \textit{ought implies can} thesis:
+
+\newcommand{\oc}{OC}
+\begin{description}
+    \item[\oc{}] If one ought to $\phi$ at \textit{t}, then one can $\phi$ at \textit{t}.\footnote{To see . . . }
+\end{description}
+%
+So if Beth cannot not take a doxastic attitude toward \textit{p} at \textit{t}, then she cannot be required to do so. Either way, then, ZIP and \eoc{} have compatible requirements.
+
+Those who prefer norms of permissions rather than requirements can similarly replace the unconditional \ep{}. Just as \eoc{} is compatible with ZIP, so is a permissive version:
 
 \begin{description}
     \item[\epc] If one has excellent evidence for \textit{p} at \textit{t}, then one is permitted to \judif{}.
 \end{description}
 %
-\epc{} is weaker than \ep{}. While \ep{} permitted to transition from having no doxastic attitude to having some doxastic attitude, given one's evidence, \epc{} says nothing about the permissibility of such transitions. \epc{} only says that judging \textit{p} is permitted given that one makes the transition. In Beth's case, \epc{} doesn't say that Beth is permitted to attend to the available evidence about nearby tables, so it does not clash with a requirement to focus on \q{Q}.
+\epc{} is weaker than \ep{}. While \ep{} permitted to transition from having no doxastic attitude to having some doxastic attitude, given one's evidence, \epc{} says nothing about the permissibility of such transitions. Rather, it only says that judging \textit{p} is permitted given that one makes the transition. In Beth's case, \epc{} doesn't say that Beth is permitted to attend to the available evidence about nearby tables, so it does not clash with a requirement to focus on \q{Q}.
 
-The conditional evidential norms \eoc{}, \soc{}, and \epc{} are both compatible with ZIP and independently more plausible than their unconditional counterparts. Thus we need not accept Friedman's conclusion that all non-zetetic epistemic norms ought to be rejected, even if we accept her case for the incompatibility of ZIP and unconditional evidential norms.
+The conditional evidential norms \eoc{} and \epc{} are both compatible with ZIP and independently motivated. Friedman's puzzle, then, has an easy way out. The evidentialist need not give up evidentialist norms altogether even if she accepts Friedman's case against unconditional epistemic norms.
 
-One might worry that there is a significant cost to rejecting a norm like \ep{}, and giving up the idea that we are always permitted to judge in accordance with the evidence. As Friedman puts it,
-
-\begin{quote}
-It [means] denying that there are blanket epistemic permissions to follow our evidence and blanket epistemic permissions to come to know. This leaves it open that there are cases in which believing in accordance with the evidence and/or coming to know are not epistemically permissible.
-
-Those sorts of blanket permissions are central to normative epistemology as we know it though, and so rejecting them should force a fairly significant rethink of our current understanding of epistemic normativity. (p. 29)
-\end{quote}
-%
-I shall argue, however, that this worry is overstated.
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{What cost?}
 
-What is the cost of giving up the idea that there are blanket permissions to judge in accordance with the evidence and to come to know? Friedman writes that this ``leaves it open that there are cases in which believing in accordance with the evidence and/or coming to know are not epistemically permissible'' (ibid). To flesh out this worry a bit more, consider Beth, who is required to \foc{}. Suppose that instead she comes to know that there are five people sitting at the table to her right (\textit{p}) at \textit{t}. Since, according to ZIP, Beth is not epistemically permitted to come to know \textit{p} at \textit{t}, her resulting state of knowledge is thus epistemically impermissible. But this is an unsettling thought. How can one's state of knowledge be epistemically impermissible? This conflicts, at the very least, with the idea that knowledge is always epistemically good. As Friedman writes: ``It’s hard to know quite how to think about epistemically problematic knowledge or knowledge acquisition on our current understanding of normative epistemology'' (ibid).
+Replacing \ep{} with \epc{} concedes that there aren't blanket epistemic permissions to believe in accordance with the evidence---there are only conditional permissions. Friedman writes:
 
-I shall argue, however, that Beth's resulting knowledge that \textit{p} is permissible, even if her coming to know \textit{p} was not permissible. First, one cannot both accept ZIP and plausibly claim that Beth's knowledge that \textit{p} is impermissible. Suppose that at \textit{t} Beth knows that \textit{p} as a result of impermissibly coming to know \textit{p}, which she did instead of focusing on \q{Q} as she was required by ZIP. If Beth is not permitted to know \textit{p} at \textit{t}, then, since requirements and permissions are duals, Beth is required not to know \textit{p} at \textit{t}. Either it is possible for Beth not to know \textit{p} at \textit{t}, or it isn't. If it isn't, then by the \textit{ought implies can} which Friedman's argument assumes (OC above), Beth is not required not to know \textit{p} at \textit{t}, and thus is permitted to know \textit{p} at \textit{t}. If, on the other hand, it is possible for her not to know \textit{p} at \textit{t}, then she is required to do that and lose her knowledge in some way. But that requires not focusing on \q{Q}, which would violate ZIP. Since ZIP requires Beth to \foc{}, and Beth cannot both \foc{} and lose her knowledge that \textit{p} at \textit{t}, Friedman's own \ref*{itm:opic} entails that Beth is \textit{not} permitted to lose her knowledge that \textit{p} at \textit{t}. So she is required not to lose it, and thus she is permitted to know \textit{p} at \textit{t}. Either way, then, Beth's resulting knowledge is permissible, even if her coming to know was not.
+\begin{quote}
+    Those sorts of blanket permissions are central to normative epistemology as we know it though, and so rejecting them should force a fairly significant rethink of our current understanding of epistemic normativity. If [we reject them], then we will have to say that there may well be cases in which following our excellent evidence and coming to know will have been a mistake — a thoroughly epistemic mistake. It’s hard to know quite how to think about epistemically problematic knowledge or knowledge acquisition on our current understanding of normative epistemology. (p. 29)
+\end{quote}
+%
+To flesh out this worry a bit more, suppose Beth does what is epistemically impermissible for her and comes to know that there are five people at the table to the right (\textit{p}) at \textit{t} instead of focusing on her counting task at \textit{t}. Beth's coming to know that \textit{p} was epistemically impermissible. In the above passage, Friedman calls knowledge obtain in this way ``epistemically problematic knowledge''. Since Friedman does not say what she means by ``epistemically problematic'', and the only normative notions she discusses are epistemic permissions and epistemic requirements, one way to interpret the worry is as follows: If Beth's coming to know \textit{p} was epistemically impermissible, then her resulting state of knowledge that \textit{p} is epistemically impermissible as well. The same could be said for the case of belief: if Beth comes to believe \textit{p} in a way that is epistemically impermissible, then her resulting belief---even if fully supported by the evidence---is epistemically impermissible as well. But these are troubling thoughts. How can a state of knowledge, or a state of evidence-based belief, be \textit{epistemically} impermissible? If these are indeed the consequences of rejecting \ep{}---regardless of whether it is replaced by something like \epc{}---then Friedman is quite right to suggest that we should seriously rethink our current understanding of normative epistemology.
 
-Second, the inference that Beth's knowledge that \textit{p} is not permissible because her coming to know \textit{p} was not permissible seems to be based on the following:
+I shall argue, however, that the worry is misplaced. In particular, I shall argue that Beth's resulting knowledge that \textit{p} is permissible, even if her coming to know \textit{p} was not permissible. First, given Friedman's premises---in particular, ZIP and \opic{}---she cannot plausibly claim that Beth's knowledge that \textit{p} is impermissible. Suppose that at \textit{t} Beth knows that \textit{p} as a result of impermissibly coming to know \textit{p}, which she did instead of focusing on \q{Q} as she was required by ZIP. If Beth is not permitted to know \textit{p} at \textit{t}, then, since requirements and permissions are duals, Beth is required not to know \textit{p} at \textit{t}. Either it is possible for Beth not to know \textit{p} at \textit{t}, or it isn't. If it isn't, then by the \textit{ought implies can} (OC in \S\ref{sec:struct}) which is entailed by Friedman's \opic{} assumption, Beth is not required not to know \textit{p} at \textit{t}, and thus is permitted to know \textit{p} at \textit{t}. If, on the other hand, it is possible for her not to know \textit{p} at \textit{t}, then she is required to do that and lose her knowledge in some way. But whatever that entails, it requires not focusing on \q{Q}, which would violate ZIP. Since ZIP requires Beth to \foc{}, and Beth cannot both \foc{} and lose her knowledge that \textit{p} at \textit{t}, Friedman's \opic{} entails that Beth is \textit{not} permitted to lose her knowledge that \textit{p} at \textit{t}. So she is required not to lose it, and thus she is permitted to know \textit{p} at \textit{t}. Either way, then, Beth's resulting knowledge is permissible, even if her coming to know was not. The same applies to belief.
+
+Second, the inference that Beth's knowledge/belief that \textit{p} is not permissible because her coming to know/believe \textit{p} was not permissible seems to be based on the following:
 
 \newcommand{\pp}{Permission Transfer}
-\newcommand{\ppk}{\pp{\textsubscript{K}}}
-\newcommand{\ppb}{\pp{\textsubscript{B}}}
+\newcommand{\ppk}{Knowledge \pp{}}
+\newcommand{\ppb}{Belief \pp{}}
+\newcommand{\ppa}{Act-State \pp{}}
 \begin{description}
     \item[\ppk] If one knows \textit{p} as a result of coming to know \textit{p}, then: one is permitted to know \textit{p} only if one was permitted to come to know \textit{p}.
     \item[\ppb] If one believes \textit{p} as a result of judging \textit{p}, then: one is permitted to believe \textit{p} only if one was permitted to judge \textit{p}.\footnote{In her \parencite*[p.~689f]{friedman_teleological_2019}, Friedman argues for a thesis equivalent to \ppb{}, writing that ``if some judgment is impermissible then the resulting belief state is as well.''}
@@ -230,12 +152,12 @@ Second, the inference that Beth's knowledge that \textit{p} is not permissible b
 \ppk{} and \ppb{} are instances of a more general thesis:
 
 \begin{description}
-    \item[\pp] If one is in state S as a result of $\phi$-ing, then: one is permitted to be in S only if one was permitted to $\phi$.
+    \item[\ppa] If one is in state S as a result of $\phi$-ing, then: one is permitted to be in S only if one was permitted to $\phi$.
 \end{description}
 %
-But \pp{} is false. If a norm deems it impermissible to transition from state S\textsubscript{1} to state S\textsubscript{2}, it does not have to deem it impermissible to remain in state S\textsubscript{2} once there. Suppose I am not permitted to exit my house (A), because of a lockdown that forbids being outside. I am thus also not permitted to enter the house across the street (B), since that would require exiting my house. But if I do move from A to B, violating the lockdown, it is not a violation of the lockdown to remain in B. On the contrary, exiting B would be a further violation of the lockdown.
+But \ppa{} is false. If a norm deems it impermissible to transition from state S\textsubscript{1} to state S\textsubscript{2}, it does not have to deem it impermissible to remain in state S\textsubscript{2} once there. Suppose I am not permitted to exit my house (A), because of a lockdown that forbids being outside. I am thus also not permitted to enter the house across the street (B), since that would require exiting my house. But if I do move from A to B, violating the lockdown, it is not a violation of the lockdown to remain in B. On the contrary, exiting B would be a further violation of the lockdown.
 
-We should distinguish the permissibility of entering a state and the permissibility of remaining in a state. As the above example shows, remaining in a state S could be permitted even if entering S was not. This is exactly what happens in Beth's case: she was not permitted to come to believe \textit{p}, but she is permitted to retain her belief that \textit{p}. The permissibility of acquired belief or knowledge states is entirely unaffected by rejecting \ep{} and \eo{} in favor of \epc{} and \eoc{}. Friedman's argument, then, does not have the significant consequences it is claimed to have.
+We should distinguish the permissibility of entering a state and the permissibility of remaining in a state. As the above example shows, remaining in a state S could be permissible even if entering S was not. We should expect this to hold whenever a norm forbids changing states only because of some side effect of that change: the change requires being outside when being outside is prohibited, or takes up resources that should be put to other uses. This is what happens in Beth's case. She was not permitted to come to believe/know \textit{p} because doing so distracted her from her inquiry, but she is nevertheless permitted to retain her belief/knowledge that \textit{p}, because not retaining it means further distraction. The permissibility of acquired belief or knowledge states is thus entirely unaffected by rejecting \ep{} and \eo{} in favor of \epc{} and \eoc{}.
 
 \printbibliography
 
